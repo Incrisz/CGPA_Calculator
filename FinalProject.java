@@ -27,24 +27,12 @@ ArrayList<Integer> GPA_arr = new ArrayList<Integer>();
         SecondSemester();
         System.out.println(student_name + " with Matric Number ::" + matric_number);
         //Runs the First GPA method
-        GPA();
+       
        
 
     }
-
-    static void GPA() {
-        Main myObj = new Main();
-        //finds the sum of GPA
-        int sum = 0;
-        for(int i = 0; i < myObj.GPA_arr.size(); i++)
-            sum += myObj.GPA_arr.get(i);
-
-        int Total_GPA = sum;
-
-        //calculates the CGPA
-        int CGPA = Total_GPA / 2;
-        System.out.println("----------------\n\nTherefore your CGPA for the 2 semester is = " + CGPA);
-    }
+// Not completed
+   
 
     static void FirstSemester() {
         System.out.println("'\n\n\t\t\t-----------+---This is for your First Semester Courses--+------- \n\n");
