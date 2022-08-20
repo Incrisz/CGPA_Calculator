@@ -2,6 +2,9 @@ import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.stream.LongStream;
 
+// Not completed CGPA value yet to be printed out 
+//calculation for GPA in both semesters completed
+
 public class Main {
 
 ArrayList<String> Course_name_arr = new ArrayList<String>();
@@ -31,7 +34,7 @@ ArrayList<Integer> GPA_arr = new ArrayList<Integer>();
        
 
     }
-// Not completed
+
    
 
     static void FirstSemester() {
