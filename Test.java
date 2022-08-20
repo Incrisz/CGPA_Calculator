@@ -2,7 +2,7 @@ import java.util.ArrayList; // import the ArrayList class
 import java.util.Scanner;
 
 
-
+//used in testing Arraylist
 
 public class Main {
     public static void main(String[] args) {
