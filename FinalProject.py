@@ -68,7 +68,9 @@ class Project:
         while( i < Total_Num_of_Courses):
             Course_name = input("Enter course name ::")
             Course_unit = int(input("Enter the course unit for " + Course_name.upper() + " ::"))
+            
             student_assessment_score = int(input("Enter the assessment_score for " + Course_name.upper() + " ::"))
+            
             student_exam_score = int(input("Enter the Examination_score for " + Course_name.upper() + " ::"))
             
             print("\t\t\t\t\t" + Course_name.upper() + " has been registered successfully \n\n Let's move to the next Course \n")
